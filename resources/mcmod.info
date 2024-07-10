@@ -1,0 +1,30 @@
+[
+{
+  "modid": "bthack",
+  "name": "BThack Client",
+  "description": "BThack is a simple cheat designed mainly for certain people. At the moment, the cheat has more than 91 different functions that will help make your game on servers easier. BThack is under development, so updates are released quite often.",
+  "version": "1.3.0.0.3",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bebra_tyan"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+  {
+    "modid": "btbot",
+    "name": "BTbot Mod",
+    "description": "A simple bot that can perform certain functions.",
+    "version": "0.1.1",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": ",",
+    "authorList": ["Bebra_tyan"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
