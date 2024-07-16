@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.bt.BThack.mixins.mixin",
+  "refmap": "mixins.bthack.refmap.json",
+  "mixins": [
+    "AccessorEntity",
+    "MixinBlock",
+    "MixinBlockLiquid",
+    "MixinBlockModelRenderer",
+    "MixinBlockSlime",
+    "MixinBlockSoulSand",
+    "MixinElytraSound",
+    "MixinEntity",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinFontRenderer",
+    "MixinGuiPlayerTabOverlay",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinModelBiped",
+    "MixinMovementInputFromOptions",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderPlayer",
+    "MixinVisGraph",
+    "MixinWorld"
+  ],
+  "client": [
+    "MixinEntityLivingBase",
+    "MixinAbstractClientPlayer",
+    "MixinGuiButton",
+    "MixinRenderGlobal",
+    "MixinRenderLivingBase",
+    "MixinRenderManager",
+    "MixinSoundManager"
+  ]
+}
