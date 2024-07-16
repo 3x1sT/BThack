@@ -1,6 +1,6 @@
 # BThack
 
-BThack cheat client for minecraft. This is a very simple cheat client, which was my first project while learning java. It is still not completely finished, so I can't guarantee 100% functionality of all features.
+BThack cheat client for minecraft. This is a very simple cheat client, which was my first project while learning java. While the server 2b2t.org.ru is on version 1.12.2 this version of BThack will be actively updated, and after the work will begin to move BThack to version 1.20.1 under fabric.
 
 
 # How to instal
