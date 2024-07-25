@@ -1,0 +1,23 @@
+package com.bt.BThack.mixins.mixin;
+
+import com.bt.BThack.System.Client;
+import net.minecraft.client.multiplayer.PlayerControllerMP;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+@Mixin(value = PlayerControllerMP.class, priority = Integer.MAX_VALUE)
+public class MixinPlayerControllerMP {
+   @Inject(
+      method = {"resetBlockRemoving"},
+      at = {@At("HEAD")},
+      cancellable = true
+   )
+   private void resetBlockWrapper(CallbackInfo callbackInfo) {
+      if (Client.getModuleByName("NoBreakReset").isEnabled()) {
+         callbackInfo.cancel();
+      }
+
+   }
+}
