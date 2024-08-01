@@ -1,6 +1,6 @@
 # BThack
 
-BThack cheat client for minecraft. This is a very simple cheat client, which was my first project while learning java. While the server 2b2t.org.ru is on version 1.12.2 this version of BThack will be actively updated, and after the work will begin to move BThack to version 1.20.1 under fabric.
+BThack is a free, open source, pve cheat client for minecraft made for the anarchy experience. The cheat provides a large variety of modules that can be useful for you. The cheat is currently being actively updated, so a new update won't keep you waiting long!
 
 
 # How to instal
