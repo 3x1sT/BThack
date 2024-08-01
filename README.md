@@ -22,3 +22,4 @@ BThack is a free, open source, pve cheat client for minecraft made for the anarc
 ![HUD](https://raw.githubusercontent.com/Ferra13671/BThack/main/Images/HUD.png)
 ![ClickGui](https://raw.githubusercontent.com/Ferra13671/BThack/main/Images/ClickGui.png)
 ![Rainbow_ClickGui](https://raw.githubusercontent.com/Ferra13671/BThack/main/Images/Rainbow_ClickGui.png)
+![Hud Editor](https://raw.githubusercontent.com/Ferra13671/BThack/main/Images/Hud_Editor.png)
